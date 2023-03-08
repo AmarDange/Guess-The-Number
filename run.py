@@ -4,7 +4,7 @@ def guess(x):
     user_guess = None
     guess_count = 0
     while user_guess!=random_number:
-        user_guess = int(input(f"Guess the number between 1 to {x}  -  "))
+        user_guess = int(input(f"Guess the number between 1 to {x}  -  \n"))
         guess_count+=1
         if user_guess > random_number:
             print("Sorry,Its too high. Try Again")
